@@ -1,82 +1,459 @@
 body {
-  background-color: #e5e5e5;
+  background: #e5e5e5;
 }
 .page {
   position: relative;
   width: 1600px;
-  height: 1880px;
+  height: 2349px;
 
-  background-color: #ffffff;
+  background: #ffffff;
 }
+
 .menu {
-  height: 80px;
+  position: absolute;
   width: 1600px;
+  height: 80px;
   left: 0px;
   top: 0px;
-  border-radius: 0px;
 }
 
+.webstudio {
+  margin-top: 24px;
+  margin-left: 215px;
+}
 .web {
-  position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
 
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
   color: rgba(33, 150, 243, 1);
 }
 .studio {
-  position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 24px;
 
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
 
   color: rgba(0, 0, 0, 1);
 }
-.li {
-  list-style-type: none;
+
+.menu_nav {
+  position: absolute;
+  width: 254px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
 }
 
 .agency {
   position: absolute;
-  width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
+  list-style-type: none;
   font-family: "Roboto";
+  font-style: normal;
+  line-height: 16px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 150, 243, 1);
+}
+.portfolio {
+  margin-left: 99px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+
+  list-style-type: none;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
+}
 
+.contact {
+  margin-left: 203px;
+  position: absolute;
+  line-height: 16px;
+  list-style-type: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mail {
+  position: absolute;
+  left: 1078px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
   color: #2196f3;
 }
 
-.portfolio {
+.phone {
   position: absolute;
-  width: 58px;
-  height: 16px;
-  left: 552px;
+  left: 1263px;
   top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  color: #757575;
+}
+
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
+.text_in_header {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.service {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #2196f3;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  box-align: center;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+.div_lorem_ipsum1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.div_lorem_ipsum2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+.div_lorem_ipsum3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+.div_lorem_ipsum4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.lorem_ipsum {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.lorem_ipsum_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  color: #757575;
+}
+
+.what_we_do_title {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 624px;
+  top: 969px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.image1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+.image2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+.image3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
+.section {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+
+.team_title {
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  bottom: 512px;
+  left: 695px;
+  right: 695px;
+  top: 94px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team {
+}
+
+.JD {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.work {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+footer {
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.filters li {
+  list-style-type: none;
+}
+
+.Wszystkie {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.Strony {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.Aplikacje {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.Dizajn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.Marketing {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.Technocrack {
+  list-style-type: none;
+}
+
+.basketball {
+  list-style-type: none;
+}
+
+.Seafood {
+  list-style-type: none;
+}
+
+.Prime {
+  list-style-type: none;
+}
+.Boxes {
+  list-style-type: none;
+}
+.Borders {
+  list-style-type: none;
+}
+.Magasin {
+  list-style-type: none;
+}
+.Project {
+  list-style-type: none;
+}
+.Buisness {
+  list-style-type: none;
+}
+
+.title_content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
