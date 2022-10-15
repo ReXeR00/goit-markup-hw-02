@@ -4,98 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="sylesheet" href="style.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="page">
+    <div>
       <header>
-        <a class="web-logo" href="index.html">
-          <h2>
-            <span class="web">Web</span><span class="studio">Studio</span>
-          </h2></a
+        <a class="web-logo" href="inidex.html">
+          <h2><span class="web">Web<span class="studio">Studio</span></h2>
+          
+          </a
         >
-        <nav>
+        <nav class="menu_nav">
           <ul>
-            <li><span>Agencja</span></li>
-            <li><span>Portfolio</span></li>
-            <li><span> Kontakt</span></li>
-          </ul>
-          <ul>
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="+48 111 111 111">+48 111 111 111</a></li>
-          </ul>
+             <li class="agency"><a  href="inidex.html">Agencja</a></li>
+              <li class="portfolio"><a  href="./portfolio.html">Portfolio</a></li>
+              <li class="contact"><a href="#bottom" >Kontakt</a></li>
+           </ul>
+          </nav>
+            <a class="mail" href="mailto:info@devstudio.com">info@devstudio.coma</a>
+            <a class="phone" href="tel:+48 111 111 111">+48 111 111 111</a>
         </nav>
       </header>
-      <main class="main">
-        <div>
-          <img src="images/img8.jpg" alt="Technocrack" width: 370px; height:
+      <main >
+        <div class="filters">
+        <ul>
+          <li class="Wszystkie"><button>Wszystkie</button></li>
+          <li class="Strony"><button>Strony</button></li>
+          <li class="Aplikacje"><button>Aplikacje</button></li>
+          <li class="Dizajn"><button>Dizajn</button></li>
+          <li class="Marketing"><button>Markieting</button></li>
+        </ul>
+      </div>
+<ul>
+      <li class="Technocrack">
+          <img  src="images/img8.jpg" alt="Technocrack" width: 370px; height:
           294px; />
-          <h2>Technocrack</h2>
-          <p>Strona internetowa</p>
-        </div>
-        <div>
+          <h2 class="title_content">Technocrack</h2>
+          <p class="description">Strona internetowa</p>
+        </li>
+      <li class="basketball">
           <img src="images/img9.jpg" alt="Grafika New Orlean vs Golden Star"
           width: 370px; height: 294px; />
-          <h2>Grafika New Orlean vs Golden Star</h2>
-          <p>Dizajn</p>
-        </div>
-        <div>
+          <h2 class="title_content">Grafika New Orlean vs Golden Star</h2>
+          <p class="description">Dizajn</p>
+        </li>
+      <li class="Seafood">
           <img src="images/img10.jpg" alt="Restauracja Seafood" width: 370px;
           height: 294px;/>
-          <h2>Restauracja Seafood</h2>
-          <p>Aplikacja</p>
-        </div>
-        <div>
+          <h2 class="title_content">Restauracja Seafood</h2>
+          <p class="description">Aplikacja</p>
+        </li>
+      <li class="Prime">
           <img src="images/img11.jpg" alt="Projekt Prime"width: 370px; height:
           294px; />
-          <h2>Projekt Prime</h2>
-          <p>Marketing</p>
-        </div>
-        <div>
+          <h2 class="title_content">Projekt Prime</h2>
+          <p class="description">Marketing</p>
+        </li>
+      <li class="Boxes">
           <img src="images/img12.jpg" alt="Projekt Boxes"width: 370px; height:
           294px; />
-          <h2>Projekt Boxes</h2>
-          <p>Aplikacja</p>
-        </div>
-        <div>
+          <h2 class="title_content">Projekt Boxes</h2>
+          <p class="description">Aplikacja</p>
+        </li>
+      <li class="Borders">
           <img src="images/img13.jpg" alt="Inspiration has no Borders" width:
           370px; height: 294px;/>
-          <h2>Inspiration has no Borders</h2>
-          <p>Strona internetowa</p>
-        </div>
-        <div>
+          <h2 class="title_content">Inspiration has no Borders</h2>
+          <p class="description">Strona internetowa</p>
+        </li>
+      <li class="Magasin">
           <img src="images/img14.jpg" alt="Magazyn Limited Edition"width: 370px;
           height: 294px;/>
-          <h2>Magazyn Limited Edition</h2>
-          <p>Dizajn</p>
-        </div>
-        <div>
+          <h2 class="title_content">Magazyn Limited Edition</h2>
+          <p class="description">Dizajn</p>
+        </li>
+      <li class="Project">
           <img src="images/img15.jpg" alt="Projekt LAB" width: 370px; height:
           294px;/>
-          <h2>Projekt LAB</h2>
-          <p>Marketing</p>
-        </div>
-        <div>
+          <h2 class="title_content" >Projekt LAB</h2>
+          <p class="description">Marketing</p>
+        </li>
+        <li class="Buisness">
           <img src="images/img16.jpg" alt="Growing Business" width: 370px;
           height: 294px;/>
-          <h2>Growing Business</h2>
-          <p>Aplikacja</p>
-        </div>
+          <h2 class="title_content">Growing Business</h2>
+          <p class="description">Aplikacja</p>
+        </li>
+      </ul>
       </main>
       <footer>
         <h2><span class="web">Web</span><span class="studio">Studio</span></h2>
 
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.coma</a>
-        <a class="phone" href="tel:+48 111 111 111">+48 111 111 111</a>
+        <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <a class="mail1" href="mailto:info@devstudio.com">info@devstudio.coma</a>
+        <a class="phone1" href="tel:+48 111 111 111">+48 111 111 111</a>
       </footer>
     </div>
   </body>
