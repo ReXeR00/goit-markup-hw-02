@@ -1,12 +1,8 @@
 body {
-  background: #e5e5e5;
-}
-.page {
-  position: relative;
-  width: 1600px;
-  height: 2349px;
+  font-family: "Roboto";
+  font-family: "Raleway";
 
-  background: #ffffff;
+  color: #e5e5e5;
 }
 
 .menu {
@@ -25,21 +21,18 @@ body {
   width: 145px;
   height: 31px;
 
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 3.1;
   color: rgba(33, 150, 243, 1);
 }
 .studio {
   width: 145px;
   height: 31px;
 
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 3.1;
 
   color: rgba(0, 0, 0, 1);
 }
@@ -53,38 +46,34 @@ body {
 }
 
 .agency {
+  text-decoration: none;
   position: absolute;
   list-style-type: none;
-  font-family: "Roboto";
-  font-style: normal;
-  line-height: 16px;
-  font-style: normal;
+  line-height: 1.6;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: rgba(33, 150, 243, 1);
 }
 .portfolio {
+  text-decoration: none;
   margin-left: 99px;
   position: absolute;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
 
   list-style-type: none;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.6;
   letter-spacing: 0.02em;
   color: #212121;
 }
 
 .contact {
+  text-decoration: none;
   margin-left: 203px;
   position: absolute;
-  line-height: 16px;
+  line-height: 1.6;
   list-style-type: none;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
 
   font-size: 14px;
@@ -96,20 +85,18 @@ body {
   position: absolute;
   left: 1078px;
   top: 32px;
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .phone {
   position: absolute;
   left: 1263px;
   top: 32px;
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   color: #757575;
+  text-decoration: none;
 }
 
 .header {
@@ -129,8 +116,6 @@ body {
   left: 452px;
   top: 200px;
 
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   text-align: center;
@@ -153,7 +138,6 @@ body {
 
 .button {
   background-color: #2196f3;
-  font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
   color: white;
@@ -164,9 +148,11 @@ body {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   background-color: #2196f3;
   color: white;
+}
+.button:focus {
 }
 
 .div_lorem_ipsum1 {
@@ -203,8 +189,6 @@ button:hover {
 }
 
 .lorem_ipsum {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -214,8 +198,6 @@ button:hover {
 }
 
 .lorem_ipsum_text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -230,11 +212,10 @@ button:hover {
   left: 624px;
   top: 969px;
 
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 4.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -279,11 +260,9 @@ button:hover {
   right: 695px;
   top: 94px;
 
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 4.2;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -294,22 +273,18 @@ button:hover {
 }
 
 .JD {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.9;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
 }
 .work {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.9;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -317,35 +292,32 @@ button:hover {
 }
 
 footer {
+  background-color: #2f303a;
 }
 
 .address {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2.4;
   letter-spacing: 0.03em;
 
   color: #ffffff;
 }
 .mail1 {
-  font-family: "Roboto";
-  font-style: normal;
+  text-decoration: none;
+
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2.4;
 
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
 .phone1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+  text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2.4;
 
   letter-spacing: 0.03em;
 
@@ -357,56 +329,72 @@ footer {
 }
 
 .Wszystkie {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 2.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+  cursor: pointer;
+}
+.Wszystkie:hover {
+}
+.Wszystkie:focus {
 }
 .Strony {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 2.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
+}
+.Strony:hover {
+}
+.Stron:focus {
 }
 .Aplikacje {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 2.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
 }
-.Dizajn {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.Aplikacje:hover {
 }
-.Marketing {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.Aplikacje:focus {
 }
 
+.Dizajn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.Dizajn:hover {
+}
+.Dizajn:focus {
+}
+
+.Marketing {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.Marketing:hover {
+}
+.Marketing:focus {
+}
 .Technocrack {
   list-style-type: none;
 }
@@ -439,21 +427,17 @@ footer {
 }
 
 .title_content {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 3.6;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
 .description {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 3;
   letter-spacing: 0.03em;
   color: #757575;
 }
