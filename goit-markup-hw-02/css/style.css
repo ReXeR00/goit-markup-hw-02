@@ -92,6 +92,10 @@ a {text-decoration:none;}
   text-decoration: none;
 }
 
+.mail:hover{
+ color: #212121;
+}
+
 .phone {
   position: absolute;
   left: 1263px;
@@ -99,6 +103,10 @@ a {text-decoration:none;}
   font-size: 14px;
   color: #757575;
   text-decoration: none;
+}
+
+.phone:hover{
+ color: #212121;
 }
 
 .header {
